@@ -1,0 +1,19 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite it using the metadata below."
+title: "EmbodiedLens: Evidence-aware visual analysis of vision-and-language navigation traces"
+type: software
+version: 3.2.0
+date-released: 2026-09-17
+authors:
+  - family-names: Lu
+    given-names: Kangqi
+  - family-names: Wang
+    given-names: Kexiang
+  - family-names: Wang
+    given-names: Qi
+repository-code: "https://github.com/lemontea0314/EmbodiedLens"
+keywords:
+  - visual analytics
+  - vision-and-language navigation
+  - trajectory analysis
+  - embodied intelligence

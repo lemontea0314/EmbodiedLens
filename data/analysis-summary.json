@@ -1,0 +1,1156 @@
+{
+  "version": "3.0.0",
+  "generatedAt": "2026-09-15T13:15:28.130Z",
+  "source": {
+    "name": "duet_r2r_val_unseen.json",
+    "bytes": 152092008,
+    "sha256": "49079c2d6ed1189dccff02bc755520511ea9948fa30c8b92e1eb8fea70512b0f"
+  },
+  "compact": {
+    "bytes": 34987584,
+    "sha256": "f6c67727fed52a223f3ba6b055612b809cd38cbab1d85178cfdb202e18cb8fb3",
+    "topologies": 11
+  },
+  "fingerprint": "be86f4d3",
+  "runtime": {
+    "prepareMS": 609.4131000000001,
+    "clusterMS": 51.1387000000002
+  },
+  "audit": {
+    "episodes": 2349,
+    "steps": 16856,
+    "scans": 11,
+    "metricEpisodes": 2349,
+    "successes": 1680,
+    "successRate": 0.7151979565772669,
+    "meanSPL": 0.6040984984731953,
+    "meanNE": 3.312389049665112,
+    "meanNDTW": 0.6702053170383179,
+    "partialSteps": 5943,
+    "invalidScores": 0,
+    "missingChosen": 1213,
+    "duplicateActions": 12295,
+    "imageCandidates": 0,
+    "rollouts": 0,
+    "revisitingEpisodes": 550,
+    "postStopEpisodes": 61,
+    "distanceMismatches": 0,
+    "graphConflictEpisodes": 1787,
+    "referenceConflictEpisodes": 1873,
+    "labels": {
+      "Success": 1680,
+      "Early stop": 669
+    }
+  },
+  "cohorts": [
+    {
+      "cohort": 1,
+      "episodes": 996,
+      "steps": 6127,
+      "scans": 11,
+      "metricEpisodes": 996,
+      "successes": 838,
+      "successRate": 0.8413654618473896,
+      "meanSPL": 0.7982883739043118,
+      "meanNE": 1.710331503866031,
+      "meanNDTW": 0.856919192858073,
+      "partialSteps": 760,
+      "invalidScores": 0,
+      "missingChosen": 4,
+      "duplicateActions": 4384,
+      "imageCandidates": 0,
+      "rollouts": 0,
+      "revisitingEpisodes": 4,
+      "postStopEpisodes": 0,
+      "distanceMismatches": 0,
+      "graphConflictEpisodes": 565,
+      "referenceConflictEpisodes": 628,
+      "labels": {
+        "Success": 838,
+        "Early stop": 158
+      }
+    },
+    {
+      "cohort": 2,
+      "episodes": 805,
+      "steps": 5222,
+      "scans": 11,
+      "metricEpisodes": 805,
+      "successes": 524,
+      "successRate": 0.6509316770186335,
+      "meanSPL": 0.5838012658130208,
+      "meanNE": 3.8310267209021682,
+      "meanNDTW": 0.6621861722202991,
+      "partialSteps": 1905,
+      "invalidScores": 0,
+      "missingChosen": 0,
+      "duplicateActions": 3936,
+      "imageCandidates": 0,
+      "rollouts": 0,
+      "revisitingEpisodes": 5,
+      "postStopEpisodes": 5,
+      "distanceMismatches": 0,
+      "graphConflictEpisodes": 674,
+      "referenceConflictEpisodes": 697,
+      "labels": {
+        "Success": 524,
+        "Early stop": 281
+      }
+    },
+    {
+      "cohort": 3,
+      "episodes": 295,
+      "steps": 2542,
+      "scans": 11,
+      "metricEpisodes": 295,
+      "successes": 216,
+      "successRate": 0.7322033898305085,
+      "meanSPL": 0.4184066239426459,
+      "meanNE": 3.403763171955765,
+      "meanNDTW": 0.513970688436623,
+      "partialSteps": 1125,
+      "invalidScores": 0,
+      "missingChosen": 332,
+      "duplicateActions": 1805,
+      "imageCandidates": 0,
+      "rollouts": 0,
+      "revisitingEpisodes": 288,
+      "postStopEpisodes": 2,
+      "distanceMismatches": 0,
+      "graphConflictEpisodes": 295,
+      "referenceConflictEpisodes": 295,
+      "labels": {
+        "Success": 216,
+        "Early stop": 79
+      }
+    },
+    {
+      "cohort": 4,
+      "episodes": 164,
+      "steps": 1761,
+      "scans": 11,
+      "metricEpisodes": 164,
+      "successes": 74,
+      "successRate": 0.45121951219512196,
+      "meanSPL": 0.15236464188098445,
+      "meanNE": 6.648721871599601,
+      "meanNDTW": 0.2007536684334041,
+      "partialSteps": 1188,
+      "invalidScores": 0,
+      "missingChosen": 404,
+      "duplicateActions": 1226,
+      "imageCandidates": 0,
+      "rollouts": 0,
+      "revisitingEpisodes": 164,
+      "postStopEpisodes": 14,
+      "distanceMismatches": 0,
+      "graphConflictEpisodes": 164,
+      "referenceConflictEpisodes": 164,
+      "labels": {
+        "Early stop": 90,
+        "Success": 74
+      }
+    },
+    {
+      "cohort": 5,
+      "episodes": 89,
+      "steps": 1204,
+      "scans": 11,
+      "metricEpisodes": 89,
+      "successes": 28,
+      "successRate": 0.3146067415730337,
+      "meanSPL": 0.062408743750519094,
+      "meanNE": 10.09926591929497,
+      "meanNDTW": 0.036134272889270784,
+      "partialSteps": 965,
+      "invalidScores": 0,
+      "missingChosen": 473,
+      "duplicateActions": 944,
+      "imageCandidates": 0,
+      "rollouts": 0,
+      "revisitingEpisodes": 89,
+      "postStopEpisodes": 40,
+      "distanceMismatches": 0,
+      "graphConflictEpisodes": 89,
+      "referenceConflictEpisodes": 89,
+      "labels": {
+        "Early stop": 61,
+        "Success": 28
+      }
+    }
+  ],
+  "sensitivity": [
+    {
+      "k": 3,
+      "seedARI": 1,
+      "sse": 4783.771368867596,
+      "sizes": [
+        1222,
+        846,
+        281
+      ]
+    },
+    {
+      "k": 4,
+      "seedARI": 1,
+      "sse": 3713.8584763665835,
+      "sizes": [
+        1001,
+        805,
+        355,
+        188
+      ]
+    },
+    {
+      "k": 5,
+      "seedARI": 0.9542802911746023,
+      "sse": 3392.454804489045,
+      "sizes": [
+        996,
+        805,
+        295,
+        164,
+        89
+      ]
+    },
+    {
+      "k": 6,
+      "seedARI": 1,
+      "sse": 2922.352935413547,
+      "sizes": [
+        813,
+        647,
+        353,
+        275,
+        172,
+        89
+      ]
+    },
+    {
+      "k": 7,
+      "seedARI": 1,
+      "sse": 2737.966777490593,
+      "sizes": [
+        804,
+        626,
+        367,
+        244,
+        122,
+        94,
+        92
+      ]
+    },
+    {
+      "k": 8,
+      "seedARI": 0.9943071553412904,
+      "sse": 2595.2460308701484,
+      "sizes": [
+        801,
+        626,
+        366,
+        212,
+        114,
+        109,
+        61,
+        60
+      ]
+    }
+  ],
+  "cases": [
+    {
+      "cohort": 1,
+      "representative": {
+        "id": "1310_1",
+        "score": 0.0834549083818762,
+        "step": {
+          "index": 0,
+          "reason": "Start · no conflict / negative progress"
+        },
+        "metrics": {
+          "success": true,
+          "spl": 1,
+          "ne": 0,
+          "ndtw": 1
+        },
+        "analysis": {
+          "revisits": 0,
+          "revisitRatio": 0,
+          "routeLength": 10.659629085951348,
+          "startDistance": 10.659629085951348,
+          "conflicts": 0,
+          "referenceConflicts": 0,
+          "coverage": 1,
+          "negativeSteps": 0,
+          "unloggedChoices": 0,
+          "partialSteps": 0,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      },
+      "severe": {
+        "id": "2365_0",
+        "score": 0.9786308499328462,
+        "step": {
+          "index": 0,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": false,
+          "spl": 0,
+          "ne": 26.58852680173932,
+          "ndtw": 0.00815470499806396
+        },
+        "analysis": {
+          "revisits": 0,
+          "revisitRatio": 0,
+          "routeLength": 10.661675503620705,
+          "startDistance": 15.926851298118615,
+          "conflicts": 6,
+          "referenceConflicts": 1,
+          "coverage": 1,
+          "negativeSteps": 5,
+          "unloggedChoices": 0,
+          "partialSteps": 1,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      },
+      "boundary": {
+        "id": "4028_1",
+        "score": 0.0007649615642542074,
+        "step": {
+          "index": 3,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": true,
+          "spl": 0.82300398839033,
+          "ne": 2.363509169805865,
+          "ndtw": 0.8542193415173949
+        },
+        "analysis": {
+          "revisits": 0,
+          "revisitRatio": 0,
+          "routeLength": 10.603940276108526,
+          "startDistance": 8.727085139890173,
+          "conflicts": 1,
+          "referenceConflicts": 1,
+          "coverage": 1,
+          "negativeSteps": 1,
+          "unloggedChoices": 0,
+          "partialSteps": 2,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      }
+    },
+    {
+      "cohort": 2,
+      "representative": {
+        "id": "6418_0",
+        "score": 0.2284357289249295,
+        "step": {
+          "index": 0,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": false,
+          "spl": 0,
+          "ne": 6.391950000633863,
+          "ndtw": 0.526761035108283
+        },
+        "analysis": {
+          "revisits": 0,
+          "revisitRatio": 0,
+          "routeLength": 5.770594430127323,
+          "startDistance": 9.816144260093196,
+          "conflicts": 4,
+          "referenceConflicts": 2,
+          "coverage": 1,
+          "negativeSteps": 1,
+          "unloggedChoices": 0,
+          "partialSteps": 1,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      },
+      "severe": {
+        "id": "6093_0",
+        "score": 0.9979168741378048,
+        "step": {
+          "index": 0,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": false,
+          "spl": 0,
+          "ne": 32.58296688487346,
+          "ndtw": 0.006249377586585337
+        },
+        "analysis": {
+          "revisits": 0,
+          "revisitRatio": 0,
+          "routeLength": 16.926308445541803,
+          "startDistance": 15.656658439331647,
+          "conflicts": 7,
+          "referenceConflicts": 1,
+          "coverage": 1,
+          "negativeSteps": 6,
+          "unloggedChoices": 0,
+          "partialSteps": 1,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      },
+      "boundary": {
+        "id": "4969_2",
+        "score": 0.002563593226704519,
+        "step": {
+          "index": 4,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": true,
+          "spl": 0.8262762265272718,
+          "ne": 1.7083419458644689,
+          "ndtw": 0.8923565887998459
+        },
+        "analysis": {
+          "revisits": 0,
+          "revisitRatio": 0,
+          "routeLength": 9.833668194714008,
+          "startDistance": 8.12532624884954,
+          "conflicts": 1,
+          "referenceConflicts": 1,
+          "coverage": 1,
+          "negativeSteps": 1,
+          "unloggedChoices": 0,
+          "partialSteps": 4,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      }
+    },
+    {
+      "cohort": 3,
+      "representative": {
+        "id": "4381_2",
+        "score": 0.4076084395628031,
+        "step": {
+          "index": 1,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": true,
+          "spl": 0.35250567367655267,
+          "ne": 0,
+          "ndtw": 0.516288813007568
+        },
+        "analysis": {
+          "revisits": 1,
+          "revisitRatio": 0.1111111111111111,
+          "routeLength": 15.765596609073063,
+          "startDistance": 5.557462253594075,
+          "conflicts": 3,
+          "referenceConflicts": 1,
+          "coverage": 1,
+          "negativeSteps": 2,
+          "unloggedChoices": 1,
+          "partialSteps": 5,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      },
+      "severe": {
+        "id": "5261_1",
+        "score": 0.9859910626299687,
+        "step": {
+          "index": 0,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": false,
+          "spl": 0,
+          "ne": 28.026519689841752,
+          "ndtw": 0.0005332640423917345
+        },
+        "analysis": {
+          "revisits": 1,
+          "revisitRatio": 0.1,
+          "routeLength": 20.19222505545062,
+          "startDistance": 12.806584612773811,
+          "conflicts": 9,
+          "referenceConflicts": 1,
+          "coverage": 1,
+          "negativeSteps": 7,
+          "unloggedChoices": 1,
+          "partialSteps": 8,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      },
+      "boundary": {
+        "id": "4202_1",
+        "score": 0.003839561125184243,
+        "step": {
+          "index": 0,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": true,
+          "spl": 0.8716204443045851,
+          "ne": 1.4399117350726747,
+          "ndtw": 0.8478289797486689
+        },
+        "analysis": {
+          "revisits": 1,
+          "revisitRatio": 0.14285714285714285,
+          "routeLength": 12.642300923499953,
+          "startDistance": 11.019287947973293,
+          "conflicts": 2,
+          "referenceConflicts": 2,
+          "coverage": 1,
+          "negativeSteps": 1,
+          "unloggedChoices": 1,
+          "partialSteps": 4,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      }
+    },
+    {
+      "cohort": 4,
+      "representative": {
+        "id": "5840_2",
+        "score": 0.6641694714336279,
+        "step": {
+          "index": 0,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": true,
+          "spl": 0.2892763150344965,
+          "ne": 0,
+          "ndtw": 0.022101519373784895
+        },
+        "analysis": {
+          "revisits": 5,
+          "revisitRatio": 0.3125,
+          "routeLength": 29.88752535894362,
+          "startDistance": 8.645753201335278,
+          "conflicts": 7,
+          "referenceConflicts": 1,
+          "coverage": 1,
+          "negativeSteps": 5,
+          "unloggedChoices": 2,
+          "partialSteps": 8,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      },
+      "severe": {
+        "id": "5887_0",
+        "score": 0.9887204873159655,
+        "step": {
+          "index": 0,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": false,
+          "spl": 0,
+          "ne": 28.818720992136896,
+          "ndtw": 0.000007593202206443046
+        },
+        "analysis": {
+          "revisits": 8,
+          "revisitRatio": 0.4,
+          "routeLength": 50.70633488196151,
+          "startDistance": 15.646216812254899,
+          "conflicts": 12,
+          "referenceConflicts": 1,
+          "coverage": 1,
+          "negativeSteps": 8,
+          "unloggedChoices": 3,
+          "partialSteps": 9,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      },
+      "boundary": {
+        "id": "6879_0",
+        "score": 0.022630461150537462,
+        "step": {
+          "index": 0,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": true,
+          "spl": 0.37976165756034014,
+          "ne": 0,
+          "ndtw": 0.11357325203548063
+        },
+        "analysis": {
+          "revisits": 3,
+          "revisitRatio": 0.23076923076923078,
+          "routeLength": 21.256730019462026,
+          "startDistance": 8.07249102650354,
+          "conflicts": 5,
+          "referenceConflicts": 1,
+          "coverage": 1,
+          "negativeSteps": 3,
+          "unloggedChoices": 2,
+          "partialSteps": 4,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      }
+    },
+    {
+      "cohort": 5,
+      "representative": {
+        "id": "3766_2",
+        "score": 0.5738599637758024,
+        "step": {
+          "index": 3,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": false,
+          "spl": 0,
+          "ne": 12.860986675188528,
+          "ndtw": 0.00007324404360863624
+        },
+        "analysis": {
+          "revisits": 15,
+          "revisitRatio": 0.5,
+          "routeLength": 51.66025300662711,
+          "startDistance": 7.566842007866309,
+          "conflicts": 12,
+          "referenceConflicts": 1,
+          "coverage": 1,
+          "negativeSteps": 9,
+          "unloggedChoices": 6,
+          "partialSteps": 11,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      },
+      "severe": {
+        "id": "3433_2",
+        "score": 0.9850660430006116,
+        "step": {
+          "index": 1,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": false,
+          "spl": 0,
+          "ne": 27.78581247495243,
+          "ndtw": 0.0009386030149305851
+        },
+        "analysis": {
+          "revisits": 12,
+          "revisitRatio": 0.5,
+          "routeLength": 47.95489834064121,
+          "startDistance": 12.919292357451415,
+          "conflicts": 11,
+          "referenceConflicts": 1,
+          "coverage": 1,
+          "negativeSteps": 8,
+          "unloggedChoices": 5,
+          "partialSteps": 11,
+          "postStopRoute": false,
+          "distanceMismatch": 0
+        }
+      },
+      "boundary": {
+        "id": "1744_2",
+        "score": 0.0750093827735947,
+        "step": {
+          "index": 1,
+          "reason": "First graph decision conflict"
+        },
+        "metrics": {
+          "success": true,
+          "spl": 0.19685649359151486,
+          "ne": 0,
+          "ndtw": 0.0351557147848175
+        },
+        "analysis": {
+          "revisits": 9,
+          "revisitRatio": 0.375,
+          "routeLength": 32.147538974268684,
+          "startDistance": 6.3284518000710985,
+          "conflicts": 11,
+          "referenceConflicts": 3,
+          "coverage": 1,
+          "negativeSteps": 8,
+          "unloggedChoices": 4,
+          "partialSteps": 12,
+          "postStopRoute": true,
+          "distanceMismatch": 0
+        }
+      }
+    }
+  ],
+  "seedARI": 0.9542802911746023,
+  "examples": [
+    {
+      "id": "4837_2",
+      "success": true,
+      "nav_error": 0,
+      "spl": 0.8639082097964702,
+      "ndtw": 0.8532461842188448,
+      "analysis": {
+        "revisits": 0,
+        "revisitRatio": 0,
+        "routeLength": 9.798854033879131,
+        "startDistance": 8.465310446465443,
+        "conflicts": 1,
+        "referenceConflicts": 1,
+        "coverage": 1,
+        "negativeSteps": 0,
+        "unloggedChoices": 0,
+        "partialSteps": 1,
+        "postStopRoute": false,
+        "distanceMismatch": 0
+      },
+      "defaultStep": {
+        "index": 0,
+        "reason": "First graph decision conflict"
+      },
+      "globalSteps": [],
+      "step0": {
+        "chosen": {
+          "action": "back",
+          "viewpoint_id": "2fd969a3140b4fbe91d8c3b1766e0a19",
+          "bearing": 3.401872934895106,
+          "elevation": -0.021849994856921955,
+          "probability": 0.7064316272735596,
+          "evidence": 0.7064316272735596,
+          "future_utility": 0.6382094833236885,
+          "future_risk": 0.42050419122159954,
+          "proxy": true,
+          "image": null
+        },
+        "reference": {
+          "action": "back",
+          "viewpoint_id": "cc96c884cf7c4218a00005a03143b889",
+          "bearing": 3.7144219935737444,
+          "elevation": -0.022381730133040224,
+          "probability": 0.2883891761302948,
+          "evidence": 0.2883891761302948,
+          "future_utility": 0.5826856218537436,
+          "future_risk": 0.5596365429201975,
+          "proxy": true,
+          "image": null
+        },
+        "referenceConflict": true,
+        "progressDelta": null,
+        "oracleIds": [
+          "cc96c884cf7c4218a00005a03143b889"
+        ],
+        "regret": 1.3335435874136898,
+        "oracleSource": "3D graph shortest path to exact goal",
+        "transition": [
+          "471a6f3beedb4cc7a71edc7fc1c5275b",
+          "2fd969a3140b4fbe91d8c3b1766e0a19"
+        ],
+        "traversalRevisits": 0,
+        "conflict": true
+      }
+    },
+    {
+      "id": "3411_1",
+      "success": false,
+      "nav_error": 22.08728424862311,
+      "spl": 0,
+      "ndtw": 1.3565660727528112e-8,
+      "analysis": {
+        "revisits": 15,
+        "revisitRatio": 0.5,
+        "routeLength": 57.20805360230693,
+        "startDistance": 10.62655860945923,
+        "conflicts": 13,
+        "referenceConflicts": 1,
+        "coverage": 1,
+        "negativeSteps": 9,
+        "unloggedChoices": 4,
+        "partialSteps": 11,
+        "postStopRoute": true,
+        "distanceMismatch": 0
+      },
+      "defaultStep": {
+        "index": 0,
+        "reason": "First graph decision conflict"
+      },
+      "globalSteps": [
+        8,
+        11,
+        12,
+        13
+      ],
+      "step0": {
+        "chosen": {
+          "action": "forward",
+          "viewpoint_id": "ffedee2a7b1f45e3b8a5b38f68aca03f",
+          "bearing": -0.046994615346193314,
+          "elevation": -0.0010493182794054496,
+          "probability": 0.8154138922691345,
+          "evidence": 0.8154138922691345,
+          "future_utility": 0.4044557238518224,
+          "future_risk": 0.6324614976943507,
+          "proxy": true,
+          "image": null
+        },
+        "reference": {
+          "action": "left",
+          "viewpoint_id": "6e6a55cea2ea4235bdeab2545d9af45c",
+          "bearing": 3.94883990552339,
+          "elevation": 0.0007546440100522208,
+          "probability": 0.13846947252750397,
+          "evidence": 0.13846947252750397,
+          "future_utility": 0.7119874126819594,
+          "future_risk": 0.4603186928125398,
+          "proxy": true,
+          "image": null
+        },
+        "referenceConflict": true,
+        "progressDelta": null,
+        "oracleIds": [
+          "6e6a55cea2ea4235bdeab2545d9af45c"
+        ],
+        "regret": 4.632314784883967,
+        "oracleSource": "3D graph shortest path to exact goal",
+        "transition": [
+          "1eae5d4a0c0146c2b884d6b96d9b0e16",
+          "ffedee2a7b1f45e3b8a5b38f68aca03f"
+        ],
+        "traversalRevisits": 0,
+        "conflict": true
+      }
+    },
+    {
+      "id": "1744_2",
+      "success": true,
+      "nav_error": 0,
+      "spl": 0.19685649359151486,
+      "ndtw": 0.0351557147848175,
+      "analysis": {
+        "revisits": 9,
+        "revisitRatio": 0.375,
+        "routeLength": 32.147538974268684,
+        "startDistance": 6.3284518000710985,
+        "conflicts": 11,
+        "referenceConflicts": 3,
+        "coverage": 1,
+        "negativeSteps": 8,
+        "unloggedChoices": 4,
+        "partialSteps": 12,
+        "postStopRoute": true,
+        "distanceMismatch": 0
+      },
+      "defaultStep": {
+        "index": 1,
+        "reason": "First graph decision conflict"
+      },
+      "globalSteps": [
+        7,
+        8,
+        10,
+        11
+      ],
+      "step0": {
+        "chosen": {
+          "action": "forward",
+          "viewpoint_id": "f1f7c280b9fe489581bc3fe0b7088468",
+          "bearing": 5.836875703098182,
+          "elevation": 0.01653376955496033,
+          "probability": 0.6136720776557922,
+          "evidence": 0.6136720776557922,
+          "future_utility": 0.6382999471493684,
+          "future_risk": 0.43896563731947313,
+          "proxy": true,
+          "image": null
+        },
+        "reference": {
+          "action": "forward",
+          "viewpoint_id": "f1f7c280b9fe489581bc3fe0b7088468",
+          "bearing": 5.836875703098182,
+          "elevation": 0.01653376955496033,
+          "probability": 0.6136720776557922,
+          "evidence": 0.6136720776557922,
+          "future_utility": 0.6382999471493684,
+          "future_risk": 0.43896563731947313,
+          "proxy": true,
+          "image": null
+        },
+        "referenceConflict": false,
+        "progressDelta": null,
+        "oracleIds": [
+          "f1f7c280b9fe489581bc3fe0b7088468"
+        ],
+        "regret": 0,
+        "oracleSource": "3D graph shortest path to exact goal",
+        "transition": [
+          "c14db1c9fdcb4f96b202b49a91c45f14",
+          "f1f7c280b9fe489581bc3fe0b7088468"
+        ],
+        "traversalRevisits": 0,
+        "conflict": false
+      }
+    },
+    {
+      "id": "3766_2",
+      "success": false,
+      "nav_error": 12.860986675188528,
+      "spl": 0,
+      "ndtw": 0.00007324404360863624,
+      "analysis": {
+        "revisits": 15,
+        "revisitRatio": 0.5,
+        "routeLength": 51.66025300662711,
+        "startDistance": 7.566842007866309,
+        "conflicts": 12,
+        "referenceConflicts": 1,
+        "coverage": 1,
+        "negativeSteps": 9,
+        "unloggedChoices": 6,
+        "partialSteps": 11,
+        "postStopRoute": false,
+        "distanceMismatch": 0
+      },
+      "defaultStep": {
+        "index": 3,
+        "reason": "First graph decision conflict"
+      },
+      "globalSteps": [
+        7,
+        8,
+        9,
+        10,
+        11,
+        12
+      ],
+      "step0": {
+        "chosen": {
+          "action": "forward",
+          "viewpoint_id": "a351e0438a09431083f40281b97fe9fb",
+          "bearing": -0.32183080944706166,
+          "elevation": -0.004889613112179995,
+          "probability": 0.9999940395355225,
+          "evidence": 0.9999940395355225,
+          "future_utility": 0.6075303227224874,
+          "future_risk": 0.3924708693704081,
+          "proxy": true,
+          "image": null
+        },
+        "reference": {
+          "action": "forward",
+          "viewpoint_id": "a351e0438a09431083f40281b97fe9fb",
+          "bearing": -0.32183080944706166,
+          "elevation": -0.004889613112179995,
+          "probability": 0.9999940395355225,
+          "evidence": 0.9999940395355225,
+          "future_utility": 0.6075303227224874,
+          "future_risk": 0.3924708693704081,
+          "proxy": true,
+          "image": null
+        },
+        "referenceConflict": false,
+        "progressDelta": null,
+        "oracleIds": [
+          "a351e0438a09431083f40281b97fe9fb"
+        ],
+        "regret": 0,
+        "oracleSource": "3D graph shortest path to exact goal",
+        "transition": [
+          "0154dc50196442d58a30d82e7cb1f5a8",
+          "a351e0438a09431083f40281b97fe9fb"
+        ],
+        "traversalRevisits": 0,
+        "conflict": false
+      }
+    },
+    {
+      "id": "1310_1",
+      "success": true,
+      "nav_error": 0,
+      "spl": 1,
+      "ndtw": 1,
+      "analysis": {
+        "revisits": 0,
+        "revisitRatio": 0,
+        "routeLength": 10.659629085951348,
+        "startDistance": 10.659629085951348,
+        "conflicts": 0,
+        "referenceConflicts": 0,
+        "coverage": 1,
+        "negativeSteps": 0,
+        "unloggedChoices": 0,
+        "partialSteps": 0,
+        "postStopRoute": false,
+        "distanceMismatch": 0
+      },
+      "defaultStep": {
+        "index": 0,
+        "reason": "Start · no conflict / negative progress"
+      },
+      "globalSteps": [],
+      "step0": {
+        "chosen": {
+          "action": "back",
+          "viewpoint_id": "3321d3b4158a4b8093b724c1dd8e38d5",
+          "bearing": 2.363271103962716,
+          "elevation": -0.01084733093760296,
+          "probability": 0.9992269277572632,
+          "evidence": 0.9992269277572632,
+          "future_utility": 0.5915878294534669,
+          "future_risk": 0.4085667849950805,
+          "proxy": true,
+          "image": null
+        },
+        "reference": {
+          "action": "back",
+          "viewpoint_id": "3321d3b4158a4b8093b724c1dd8e38d5",
+          "bearing": 2.363271103962716,
+          "elevation": -0.01084733093760296,
+          "probability": 0.9992269277572632,
+          "evidence": 0.9992269277572632,
+          "future_utility": 0.5915878294534669,
+          "future_risk": 0.4085667849950805,
+          "proxy": true,
+          "image": null
+        },
+        "referenceConflict": false,
+        "progressDelta": null,
+        "oracleIds": [
+          "3321d3b4158a4b8093b724c1dd8e38d5"
+        ],
+        "regret": 0,
+        "oracleSource": "3D graph shortest path to exact goal",
+        "transition": [
+          "da59b98bb29247e69790fcaf32e13bb4",
+          "3321d3b4158a4b8093b724c1dd8e38d5"
+        ],
+        "traversalRevisits": 0,
+        "conflict": false
+      }
+    }
+  ],
+  "allSplitsSource": {
+    "name": "duet_r2r_all_splits.jsonl",
+    "bytes": 330051099,
+    "sha256": "56a0c62a76b120038bd54cb2ca57e88f519f8eea8c116f71f90cbc715cbf99ba"
+  },
+  "allSplits": [
+    {
+      "split": "val_train_seen",
+      "episodes": 150,
+      "steps": 918,
+      "scans": 34,
+      "metricEpisodes": 150,
+      "successes": 145,
+      "successRate": 0.9666666666666667,
+      "meanSPL": 0.9501196217324743,
+      "meanNE": 0.31062335355635906,
+      "meanNDTW": 0.9586409784101269,
+      "partialSteps": 81,
+      "invalidScores": 0,
+      "missingChosen": 3,
+      "duplicateActions": 716,
+      "imageCandidates": 0,
+      "rollouts": 0,
+      "revisitingEpisodes": 2,
+      "postStopEpisodes": 0,
+      "distanceMismatches": 0,
+      "graphConflictEpisodes": 27,
+      "referenceConflictEpisodes": 30,
+      "labels": {
+        "Success": 145,
+        "Early stop": 5
+      }
+    },
+    {
+      "split": "val_seen",
+      "episodes": 1021,
+      "steps": 6820,
+      "scans": 56,
+      "metricEpisodes": 1021,
+      "successes": 805,
+      "successRate": 0.7884427032321254,
+      "meanSPL": 0.7287855627310678,
+      "meanNE": 2.2808003649468214,
+      "meanNDTW": 0.7873647873936637,
+      "partialSteps": 1594,
+      "invalidScores": 0,
+      "missingChosen": 218,
+      "duplicateActions": 5264,
+      "imageCandidates": 0,
+      "rollouts": 0,
+      "revisitingEpisodes": 97,
+      "postStopEpisodes": 11,
+      "distanceMismatches": 0,
+      "graphConflictEpisodes": 575,
+      "referenceConflictEpisodes": 625,
+      "labels": {
+        "Success": 805,
+        "Early stop": 216
+      }
+    },
+    {
+      "split": "val_unseen",
+      "episodes": 2349,
+      "steps": 16856,
+      "scans": 11,
+      "metricEpisodes": 2349,
+      "successes": 1680,
+      "successRate": 0.7151979565772669,
+      "meanSPL": 0.6040984984731953,
+      "meanNE": 3.312389049665112,
+      "meanNDTW": 0.6702053170383179,
+      "partialSteps": 5943,
+      "invalidScores": 0,
+      "missingChosen": 1213,
+      "duplicateActions": 12295,
+      "imageCandidates": 0,
+      "rollouts": 0,
+      "revisitingEpisodes": 550,
+      "postStopEpisodes": 61,
+      "distanceMismatches": 0,
+      "graphConflictEpisodes": 1787,
+      "referenceConflictEpisodes": 1873,
+      "labels": {
+        "Success": 1680,
+        "Early stop": 669
+      }
+    },
+    {
+      "split": "test",
+      "episodes": 4173,
+      "steps": 30721,
+      "scans": 18,
+      "metricEpisodes": 0,
+      "successes": 0,
+      "successRate": null,
+      "meanSPL": null,
+      "meanNE": null,
+      "meanNDTW": null,
+      "partialSteps": 10774,
+      "invalidScores": 0,
+      "missingChosen": 2309,
+      "duplicateActions": 22481,
+      "imageCandidates": 0,
+      "rollouts": 0,
+      "revisitingEpisodes": 1063,
+      "postStopEpisodes": 112,
+      "distanceMismatches": 0,
+      "graphConflictEpisodes": 0,
+      "referenceConflictEpisodes": 0,
+      "labels": {
+        "Early stop": 4172,
+        "Success": 1
+      }
+    }
+  ]
+}

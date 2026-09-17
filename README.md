@@ -79,4 +79,3 @@ If you use EmbodiedLens in academic work, please cite the software metadata in [
 ## Third-party data
 
 R2R annotations, Matterport3D assets, and VLN-DUET code remain subject to their respective licenses and terms. This repository does not redistribute those assets.
-

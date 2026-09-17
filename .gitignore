@@ -1,0 +1,13 @@
+# Downloaded or generated trace data
+data/*.json
+data/*.jsonl
+!data/analysis-summary.json
+
+# Local analysis exports
+EmbodiedLens_analysis_record*.json
+
+# OS and editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
